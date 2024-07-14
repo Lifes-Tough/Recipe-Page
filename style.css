@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    font: 'Outfit';
+    font: 'Poppins', sans-serif;
 }
 
 body{
@@ -28,12 +28,22 @@ img{
 
 p{
     font-size: 14px;
+    color: black;
+}
+ul{
+    padding-inline-start: 25px;
+}
+
+ol{
+    padding-inline-start: 25px;
 }
 
 ul li.prep{
     list-style-type: disc;
     color: hsl(332, 51%, 32%);
     padding-left: 12px;
+    padding-bottom: 10px;
+    margin-inline-start: 15px;
 }
 
 ul li.prep::first-line{
@@ -45,6 +55,17 @@ ul li.ing{
     font-size: 15px;
     padding-bottom: 10px;
     padding-left: 12px;
+}
+
+ol li.ins{
+    color: hsl(14, 45%, 36%);
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+ol li.ins::first-line{
+    text-wrap: wrap;
+    color: black;
 }
 
 .preparation{
@@ -62,8 +83,39 @@ ul li.ing{
 
 .ingredients{
     color: hsl(14, 45%, 36%);
+    font-size: 19px;
+}
+
+.instructions{
+
+    color: hsl(14, 45%, 36%);
+    font-size: 19px;
+}
+
+.nutrition{
+    color: hsl(14, 45%, 36%);
+    font-size: 19px;
 }
 
 hr{
     border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.container{
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.column1{
+    float: left;
+    width: 50%;
+    padding-left: 28px;
+}
+
+.column2{
+    float: left;
+    width: 50%;
+    padding-left: 3px;
+    color: hsl(14, 45%, 36%);
 }
