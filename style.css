@@ -57,15 +57,11 @@ ul li.ing{
     padding-left: 12px;
 }
 
-ol li.ins{
+ol li.ins::marker{
     color: hsl(14, 45%, 36%);
+    font-size: 19px;;
     font-size: 15px;
     padding-bottom: 15px;
-}
-
-ol li.ins::first-line{
-    text-wrap: wrap;
-    color: black;
 }
 
 .preparation{
@@ -87,9 +83,11 @@ ol li.ins::first-line{
 }
 
 .instructions{
-
-    color: hsl(14, 45%, 36%);
     font-size: 19px;
+}
+
+.insHeader{
+    color: hsl(14, 45%, 36%);
 }
 
 .nutrition{
