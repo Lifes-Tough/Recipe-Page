@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font: 'Outfit';
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.card{
+    margin: auto;
+    background-color: white;
+    max-width: 600px;
+    max-height: 2000px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 38px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+p{
+    font-size: 14px;
+}
+
+ul li.prep{
+    list-style-type: disc;
+    color: hsl(332, 51%, 32%);
+    padding-left: 12px;
+}
+
+ul li.prep::first-line{
+    color: black;
+}
+
+ul li.ing{
+    list-style-type: square;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.preparationTime{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: hsl(332, 51%, 32%);
+    font-size: 17px;
+}
+
+.ingredients{
+    color: hsl(14, 45%, 36%);
+}
+
+hr{
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
