@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
     box-sizing: border-box;
-    font: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -12,8 +12,8 @@ body{
 .card{
     margin: auto;
     background-color: white;
-    max-width: 600px;
-    max-height: 2000px;
+    width: 700px;
+    height: 2000px;
     padding: 30px;
     border-radius: 10px;
 }
@@ -58,11 +58,18 @@ ul li.ing{
     padding-left: 12px;
 }
 
+ol li.ins{
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-left: 14px;
+}
+
 ol li.ins::marker{
     color: hsl(14, 45%, 36%);
     font-size: 19px;;
     font-size: 15px;
     padding-bottom: 15px;
+    font-weight: bold;
 }
 
 .preparation{
@@ -102,7 +109,7 @@ hr{
 .container{
     width: 100%;
     font-size: 12px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .column1{
